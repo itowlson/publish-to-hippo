@@ -1,0 +1,14 @@
+name: 'Publish to Hippo'
+description: 'Publish an application to Hippo'
+inputs:
+  canary:
+    description: Is this a canary build
+    required: false
+    default: 'false'
+  specPath:
+    description: The path to the HIPPOFACTS spec file
+    required: false
+    default: '.'
+runs:
+  using: "node12"
+  main: "index.js"

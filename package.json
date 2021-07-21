@@ -1,0 +1,28 @@
+{
+  "name": "@deislabs/publish-to-hippo",
+  "version": "0.0.1",
+  "description": "A GitHub action for publishing to Hippo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deislabs/publish-to-hippo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deislabs/publish-to-hippo/issues"
+  },
+  "homepage": "https://github.com/deislabs/publish-to-hippo#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.0.0",
+    "download": "^8.0.0",
+    "mkdirp": "^1.0.4",
+    "shelljs": "^0.8.4",
+    "tar": "^6.1.0"
+  }
+}
